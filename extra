@@ -1,0 +1,60 @@
+https://code.visualstudio.com/ > Install
+https://git-scm.com/downloads > Install
+https://github.com/> Create Account
+
+https://github.com/Aakashdeveloper > Follow
+
+https://github.com/Aakashdeveloper/edu_ui_june_25 > Repo
+
+
+//vs code extension
+live server
+vscode-icons
+codespellCheck
+githistory
+gitlens
+////////////////////////
+
+html > Structure
+css > Look and Feel
+bootstrap > Responsive
+javascript > Logics
+
+profile website > 30%
+class pref > 20%
+final project (website homepage)> 50%
+
+html
+tags 
+
+html> wrapper
+head > connect (.css,.js)
+body > All the content that is visible to users
+
+block level
+> always start from the new line
+> it will take the whole width of screen
+> p div header footer
+
+inline element
+> start in the same line
+> only take the width which is required
+> img a span
+
+
+Semantic Tags
+We know the tags behaviour by there name
+
+SEO
+Search Engine Optimsation
+
+//////>Profile(https://aakashhanda.me/)
+Name
+Image
+SomethingAbout You
+techStack
+hobbies
+google map
+socail link
+
+
