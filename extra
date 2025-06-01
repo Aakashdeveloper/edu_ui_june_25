@@ -57,4 +57,50 @@ hobbies
 google map
 socail link
 
+https://www.w3schools.com/tags/tag_hn.asp
 
+
+Keep all the images and file of profile in sepearte folder
+> make repo on github
+> upload all files
+> commit the changes
+> in github goto settings
+> pages > Deploy from branch
+> branch > main > save
+
+Inline
+styletag
+stylesheet
+
+Inline > styletag > stylesheet
+
+inline
+{
+   color:red;
+   font-size:30px;
+   width:50% 
+}
+
+styletag{
+    color:orange;
+    background:green;
+    height:60px
+}
+
+stylesheet{
+    font-size:70px;
+    height:90px;
+    border:1px
+}
+
+{
+    color:red;
+    font-size:30px;
+    width:50%;
+    background:green;
+    height:60px;
+    border:1px
+}
+
+position:relative
+position:fixed
