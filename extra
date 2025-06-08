@@ -104,3 +104,17 @@ stylesheet{
 
 position:relative
 position:fixed
+
+
+selector
+id
+> #
+> to target something unique
+
+class
+> .
+> to target multiple element for same property
+
+tagname  > apply to all tags
+
+id > class
