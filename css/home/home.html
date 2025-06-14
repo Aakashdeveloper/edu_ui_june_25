@@ -1,23 +1,30 @@
 <!DOCTYPE HTML>
+<html lang="en">
 <html>
     <head>
         <title>Zomapp</title>
         <link href="home.css" rel="stylesheet" type="text/css"/>
+        <!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Html page design" />
+
+<meta name="keywords" content="Aakash Handa, aakashhanda, AAKASH HANDA, developer, experince, ds" />
     </head>
     <body>
         <!--Header Section-->
         <header>
-            <div class="brand">
+            <div class="brand" aria-label="Application brand name">
                 Developer Funnel
             </div>
-            <div class="social">
-                <a href="#">
+            <div class="social" aria-label="Social media link" >
+                <a href="#" aria-label="Facbook Page">
                     <img src="image/facebook.png" alt="fb" class="slogo"/>
                 </a>
-                <a href="#">
+                <a href="#" aria-label="Facbook Page">
                     <img src="image/insta.png" alt="fb" class="slogo"/>
                 </a>
-                <a href="#">
+                <a href="#" aria-label="Facbook Page">
                     <img src="image/youtube1.png" alt="fb" class="slogo"/>
                 </a>
             </div>
@@ -31,12 +38,109 @@
             <div id="heading">
                 Find Best Place Near You
             </div>
+            <div class="dropdown">
+                
+                <select id="city">
+                    <option>---SELECT CITY---</option>
+                    <option>Delhi</option>
+                </select>
+               
+                <select id="restSelect">
+                    <option>---SELECT RESTAURANT---</option>
+                </select>
+            </div>
          </div>
 
          <!--Quick Search Section-->
-         <div id="quickSearch"></div>
+         <div id="quickSearch">
+             <span class="quickHeading">Quick Search</span>
+             <span class="quickSubHeading">Find Restaurants By MealType</span>
+             <div class="mainbox">
+                 <div class="tileComponent">
+                     <div class="tileComponent1">
+                         <img src="image/dinner.png" alt="dinner"/>
+                     </div>
+                     <div class="tileComponent2">
+                       <a href="#">BreakFast</a>
+                       <p>Best Deal For Breakfast</p>
+                    </div>
+
+                 </div>
+                 <div class="tileComponent">
+                    <div class="tileComponent1">
+                        <img src="image/drinks.png" alt="dinner"/>
+                    </div>
+                    <div class="tileComponent2">
+                      <a href="#">BreakFast</a>
+                      <p>Best Deal For Breakfast</p>
+                   </div>
+                </div>
+                <div class="tileComponent">
+                    <div class="tileComponent1">
+                        <img src="image/lunch.png" alt="dinner"/>
+                    </div>
+                    <div class="tileComponent2">
+                      <a href="#">BreakFast</a>
+                      <p>Best Deal For Breakfast</p>
+                   </div>
+                </div>
+                <div class="tileComponent">
+                    <div class="tileComponent1">
+                        <img src="image/nightlife.png" alt="dinner"/>
+                    </div>
+                    <div class="tileComponent2">
+                      <a href="#">BreakFast</a>
+                      <p>Best Deal For Breakfast</p>
+                   </div>
+                </div>
+                <div class="tileComponent">
+                    <div class="tileComponent1">
+                        <img src="image/dinner.png" alt="dinner"/>
+                    </div>
+                    <div class="tileComponent2">
+                      <a href="#">BreakFast</a>
+                      <p>Best Deal For Breakfast</p>
+                   </div>
+                </div>
+                <div class="tileComponent">
+                    <div class="tileComponent1">
+                        <img src="image/sacks.png" alt="dinner"/>
+                    </div>
+                    <div class="tileComponent2">
+                      <a href="#">BreakFast</a>
+                      <p>Best Deal For Breakfast</p>
+                   </div>
+                </div>
+
+
+                
+             </div>
+         </div>
 
          <!--Footer Section-->
-         <footer></footer>
+         <footer>
+             <hr/>
+             <p class="footText">&copy; Developer Funnel 2025-26</p>
+             <hr/>
+             <div class="footdiv">
+                 <ul>
+                     <li>About Us</li>
+                     <li>Contact Us</li>
+                 </ul>
+
+             </div>
+             <div class="footdiv">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footdiv noborder">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+         </footer>
     </body>
 </html>
