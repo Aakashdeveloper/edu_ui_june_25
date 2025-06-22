@@ -15,7 +15,7 @@ localStorage.setItem('tokenname','12345')
 
 sessionStorage
 > Temp Storage
-> save wrt to website
+> save wrt to tab
 > Remove as soon as we close the tab
 
 sessionStorage.setItem("Testkey","code")
