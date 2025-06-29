@@ -4,6 +4,7 @@
     <head>
         <title>Zomapp</title>
         <link href="home.css" rel="stylesheet" type="text/css"/>
+        <script src="home.js"></script>
         <!--mobile apps-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -31,6 +32,9 @@
         </header>
          <!--Search Section-->
          <div id="search">
+             <div id="coupon">
+                 <button onClick="closeCoupon()">&times;</button>
+             </div>
 
              <div class="logo">
                 <span>D!</span>
@@ -142,5 +146,8 @@
                 </ul>
             </div>
          </footer>
+         <script>
+             window.onload=loadCoupon()
+         </script>
     </body>
 </html>
