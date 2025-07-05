@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Boot3</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="forms.css"/>
+       
+    </head>
+    <body>
+        <hr/>
+        <form id="empForm" method="POST">
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee Form
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label>EmpId</label>
+                        <input class="form-control" name="eid" id="eid" readonly/>
+                    </div>
+                    <div class="form-group" id="fdiv">
+                        <label class="control-label">FirstName</label>
+                        <input class="form-control"
+                        name="firstname" id="fname" onblur="validateFname()"/>
+                        <p id="fout"></p>
+                    </div>
+                  
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label>Email</label>
+                            <input class="form-control"
+                            name="email" id="mail" oninput="validateEmail()"
+                            placeholder="a@a.com"/>
+                            <p id="eout"></p>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Password</label>
+                            <input type="password" class="form-control"
+                            name="password" id="pwd" oninput="validatePwd()"/>
+                            <p id="pout"></p>
+                            <div id="ppout"></div>
+
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Conifrom Passwrod</label>
+                            <input type="password" class="form-control"
+                            name="cpassword" id="cpwd"/>
+                            <p id="cpout"></p>
+                        </div>
+                    </div>
+
+                   
+
+                    <button class="btn btn-success" type="submit">Submit</button>
+              
+                    
+                </div>
+            </div>
+        </div>
+        </form>
+        <script src="forms.js"></script>
+        <script>
+            window.onload=getId()
+        </script>
+    </body>
+</html>
